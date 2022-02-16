@@ -1,0 +1,23 @@
+
+body {
+    min-height: 100vh !important;
+    background-color: rgb(41, 82, 99) !important;
+    
+}
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.answer-field:hover {
+    cursor: pointer;
+    background-color: rgb(41, 82, 99);
+    color: white;
+    border-radius: 5px;
+}
